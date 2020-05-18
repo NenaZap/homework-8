@@ -1,0 +1,42 @@
+#question one        
+def republican_to_dem(number_of_democrats, number_of_republicans):
+    number_of_democrats = input('Enter the number of democrats: ')
+    int(num1)
+    number_of_republicans = input('Enter the number of republicans: ')
+    int(num2)
+    ratio12 = int(num1/num2)
+    print('The ratio of', number_of_democrats, 'and', number_of_republicans,'is', ratio12 + '.')
+ratioFunction(number_of_democrats, number_of_republicans)
+
+#question two
+
+Text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+   nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+   in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+ 
+ print("Original String:")
+ print(text)
+ print("\nConverted String:")
+ print(text.lower())
+ 
+ def check_for_vowls(string, vowels):
+ count = {}.fromkeys(vowels, 0)
+ 
+ for character in string:
+  if charecter in count:
+    count[charecter] += 1
+    
+vowels = 'aeiou'
+string = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+   nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+   in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+   Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+   qui officia deserunt mollit anim id est laborum."
+print (check_for_vowels(string, vowels))
+   
+   
